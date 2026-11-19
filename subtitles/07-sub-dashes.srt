@@ -1,0 +1,111 @@
+1
+00:00:02,450 --> 00:00:08,225
+{\an8}Any dash can open another dash with a button. These linked dashes are called sub dashes.
+
+2
+00:00:09,050 --> 00:00:12,225
+{\an8}Here, these two dock buttons open other dashes.
+
+3
+00:00:14,700 --> 00:00:17,875
+{\an8}To see how they connect, open Sub dashes.
+
+4
+00:00:18,500 --> 00:00:22,925
+{\an8}It's the map of your dashes. The arrows show which dash opens which.
+
+5
+00:00:24,300 --> 00:00:28,425
+{\an8}Add a button that opens another dash, and a new arrow appears.
+
+6
+00:00:30,450 --> 00:00:33,025
+{\an8}New sub dash creates a new dash.
+
+7
+00:00:33,550 --> 00:00:37,075
+{\an8}Edit this dash opens the selected dash in Layout.
+
+8
+00:00:39,700 --> 00:00:42,300
+{\an8}Each dash can also have its own dock.
+
+9
+00:00:44,150 --> 00:00:47,475
+{\an8}That's the dock: the toolbar on the side of the dash.
+
+10
+00:00:48,700 --> 00:00:55,200
+{\an8}With many dashes, keeping every dock consistent takes work. Each one needs a way back, for example.
+
+11
+00:00:57,550 --> 00:01:02,525
+{\an8}Instead, select the main dash and turn on Use its dock on every dash.
+
+12
+00:01:04,250 --> 00:01:07,025
+{\an8}That dock then shows on all your dashes.
+
+13
+00:01:07,550 --> 00:01:12,775
+{\an8}The other docks are not deleted, only hidden. They come back when you turn this off.
+
+14
+00:01:14,200 --> 00:01:17,525
+{\an8}You can pick any dash as the source of the shared dock.
+
+15
+00:01:18,000 --> 00:01:24,250
+{\an8}Every panel has a short note that explains its options. Read it first: most answers are there.
+
+16
+00:01:24,800 --> 00:01:29,150
+{\an8}Back on the main dash, Links shows where each dash is opened from.
+
+17
+00:01:32,300 --> 00:01:36,550
+{\an8}Click one to jump straight to it. Handy when you have many dashes.
+
+18
+00:01:40,050 --> 00:01:43,525
+{\an8}The Music page is built in, and it can't be edited.
+
+19
+00:01:44,075 --> 00:01:47,250
+{\an8}It shows the app that's playing music on your phone.
+
+20
+00:01:50,325 --> 00:01:53,250
+{\an8}And it opens from the music button on the dock.
+
+21
+00:01:55,575 --> 00:01:59,975
+{\an8}Under This sub dash, you can rename, duplicate or delete a dash.
+
+22
+00:02:01,275 --> 00:02:04,275
+{\an8}And under Icon, you can change its icon.
+
+23
+00:02:05,025 --> 00:02:08,650
+{\an8}Click Edit this dash, and you're back in Layout to change it.
+
+24
+00:02:10,175 --> 00:02:12,850
+{\an8}It works the same for every sub dash.
+
+25
+00:02:13,275 --> 00:02:19,475
+{\an8}This dash's own dock is only a rough draft. That's fine: every dash shows the main dock.
+
+26
+00:02:20,125 --> 00:02:24,475
+{\an8}Here's an example. This widget opens a sub dash called Waze.
+
+27
+00:02:26,075 --> 00:02:28,900
+{\an8}That dash holds just one big app card.
+
+28
+00:02:30,825 --> 00:02:34,075
+{\an8}So Waze fills the screen, right next to the dock.

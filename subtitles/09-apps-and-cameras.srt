@@ -1,0 +1,59 @@
+1
+00:00:02,450 --> 00:00:06,625
+{\an8}You can add any Android app from your phone to a button on the dash.
+
+2
+00:00:10,300 --> 00:00:15,250
+{\an8}The app opens in the large main area of the dash, usually where the map is.
+
+3
+00:00:16,800 --> 00:00:20,475
+{\an8}To show an app full screen, put it in its own sub dash.
+
+4
+00:00:22,525 --> 00:00:25,175
+{\an8}Then open that sub dash with a button.
+
+5
+00:00:26,025 --> 00:00:28,975
+{\an8}These sub dashes all open full screen.
+
+6
+00:00:30,175 --> 00:00:33,725
+{\an8}The main area can be resized, as big as you like.
+
+7
+00:00:34,975 --> 00:00:39,300
+{\an8}For the best experience, keep full-screen apps in their own sub dash.
+
+8
+00:00:42,325 --> 00:00:46,450
+{\an8}Two widgets take the main space of the dash: App and Camera.
+
+9
+00:00:47,225 --> 00:00:51,400
+{\an8}App shows an Android app from your phone, right inside the dash.
+
+10
+00:00:52,050 --> 00:00:56,875
+{\an8}Camera shows the camera you selected in the MOTO-HUB Dashcam module.
+
+11
+00:00:58,150 --> 00:01:00,600
+{\an8}It shows one camera at a time.
+
+12
+00:01:01,500 --> 00:01:06,075
+{\an8}It can be any camera the module supports, not only a bike dash cam.
+
+13
+00:01:07,200 --> 00:01:10,200
+{\an8}For example, an IP camera at home.
+
+14
+00:01:12,200 --> 00:01:18,050
+{\an8}Dash works on any screen that supports Android Auto, and replaces Android Auto there.
+
+15
+00:01:18,800 --> 00:01:21,400
+{\an8}Have fun, and see you on Discord.

@@ -1,0 +1,59 @@
+1
+00:00:02,450 --> 00:00:04,975
+{\an8}The dock is the toolbar of your dash.
+
+2
+00:00:05,550 --> 00:00:07,850
+{\an8}Open Dock to customize it.
+
+3
+00:00:09,100 --> 00:00:12,950
+{\an8}You can add more docks, for extra buttons or quick settings.
+
+4
+00:00:13,500 --> 00:00:17,000
+{\an8}Place each one on the right, at the bottom or at the top.
+
+5
+00:00:18,300 --> 00:00:21,025
+{\an8}Sides already in use are not offered.
+
+6
+00:00:21,750 --> 00:00:24,200
+{\an8}Select a dock to see its buttons.
+
+7
+00:00:26,250 --> 00:00:29,225
+{\an8}The left dock has more buttons than you can see.
+
+8
+00:00:31,700 --> 00:00:34,700
+{\an8}Hold Shift and scroll to move left and right.
+
+9
+00:00:39,050 --> 00:00:42,125
+{\an8}Use Search buttons and apps to find a function.
+
+10
+00:00:42,750 --> 00:00:46,300
+{\an8}Select a button and remove it from the list on the left.
+
+11
+00:00:47,050 --> 00:00:49,100
+{\an8}Let's fill the bottom dock.
+
+12
+00:00:52,850 --> 00:00:54,900
+{\an8}Click a function to add it.
+
+13
+00:00:57,050 --> 00:00:59,050
+{\an8}Buttons shrink to make room.
+
+14
+00:01:04,750 --> 00:01:07,600
+{\an8}When the dock is full, you can't add any more.
+
+15
+00:01:08,050 --> 00:01:11,650
+{\an8}Shape, size and position are all set here, in Dock.

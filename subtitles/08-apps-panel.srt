@@ -1,0 +1,99 @@
+1
+00:00:02,450 --> 00:00:04,375
+{\an8}Now, the Apps panel.
+
+2
+00:00:04,950 --> 00:00:08,475
+{\an8}On the dash, the nine-dot button in the dock opens it.
+
+3
+00:00:11,500 --> 00:00:14,100
+{\an8}You set it up on the Apps panel page.
+
+4
+00:00:15,300 --> 00:00:18,850
+{\an8}It slides in over the dash, and it has a fixed size.
+
+5
+00:00:20,550 --> 00:00:23,800
+{\an8}You build it like a dash, with cards and widgets.
+
+6
+00:00:26,700 --> 00:00:29,550
+{\an8}To add something, click Add to the panel.
+
+7
+00:00:30,000 --> 00:00:33,550
+{\an8}You'll find quick settings and apps, and a Controls card.
+
+8
+00:00:34,450 --> 00:00:38,725
+{\an8}Further down: phone widgets, OBD sensors, and New column.
+
+9
+00:00:42,500 --> 00:00:45,700
+{\an8}A new card is filled with a widget automatically.
+
+10
+00:00:46,400 --> 00:00:49,800
+{\an8}Change it as you like, or remove it if you don't want it.
+
+11
+00:00:53,850 --> 00:00:57,025
+{\an8}Each click on Buttons adds another Buttons card.
+
+12
+00:00:59,050 --> 00:01:02,450
+{\an8}The panel's space is fixed, so use it wisely.
+
+13
+00:01:07,600 --> 00:01:09,925
+{\an8}Click a card to see its options.
+
+14
+00:01:11,000 --> 00:01:13,700
+{\an8}The Apps card shows apps from your phone.
+
+15
+00:01:19,550 --> 00:01:21,350
+{\an8}Choose what it shows:
+
+16
+00:01:22,750 --> 00:01:26,475
+{\an8}apps on the head unit, in the same order as on your phone,
+
+17
+00:01:28,150 --> 00:01:30,175
+{\an8}or only your music apps.
+
+18
+00:01:31,500 --> 00:01:35,050
+{\an8}Last opened keeps the apps you use most at the front.
+
+19
+00:01:37,650 --> 00:01:40,650
+{\an8}If a card gets too small, give it more space.
+
+20
+00:01:43,650 --> 00:01:45,950
+{\an8}Or remove a card to make room.
+
+21
+00:01:48,600 --> 00:01:51,250
+{\an8}Click a Buttons card to see its buttons.
+
+22
+00:01:51,900 --> 00:01:55,925
+{\an8}Each click on Add button adds one more, until the card is full.
+
+23
+00:01:57,100 --> 00:02:02,150
+{\an8}Every button has the usual options: what it does, text, icon and look.
+
+24
+00:02:03,050 --> 00:02:06,925
+{\an8}It's a lot at first, so play with it. You can't break anything.
+
+25
+00:02:11,050 --> 00:02:15,300
+{\an8}To keep your current dash, save under a new name, or click Discard.

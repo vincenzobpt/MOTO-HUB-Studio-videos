@@ -1,0 +1,43 @@
+1
+00:00:03,350 --> 00:00:07,600
+{\an8}Welcome to Dash, the dashboard editor in MOTO-HUB Studio.
+
+2
+00:00:09,400 --> 00:00:15,900
+{\an8}On the left are the settings, starting with Theme. On the right is a live preview of the dash you're working on.
+
+3
+00:00:16,250 --> 00:00:20,325
+{\an8}Below the preview, My dashes lists every dash you've saved.
+
+4
+00:00:20,700 --> 00:00:27,850
+{\an8}To save, keep the same name to overwrite the dash, or type a new name to keep a separate copy. Then click Save.
+
+5
+00:00:28,200 --> 00:00:33,875
+{\an8}Send to phone sends the dash you're editing straight to your phone, over Wi-Fi or USB.
+
+6
+00:00:37,450 --> 00:00:40,025
+{\an8}To connect a phone, open Phone.
+
+7
+00:00:40,350 --> 00:00:46,000
+{\an8}You pair it once, and from then on everything is automatic. You don't need to type anything.
+
+8
+00:00:49,000 --> 00:00:51,175
+{\an8}After that, you just connect.
+
+9
+00:00:51,725 --> 00:00:56,475
+{\an8}Once connected, every change you send appears on your phone in real time.
+
+10
+00:00:58,175 --> 00:01:02,000
+{\an8}So you see the real thing on your phone, without the simulator.
+
+11
+00:01:02,675 --> 00:01:06,675
+{\an8}Don't like it? Change it, send it again, and it updates live.

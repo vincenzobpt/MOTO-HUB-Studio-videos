@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dash video guide · MOTO-HUB Studio</title>
+<meta name="description" content="Short videos that show how to build a dashboard with Dash in MOTO-HUB Studio.">
+<style>
+  :root {
+    --page: #0f1113; --panel: #181b1e; --panel-2: #1f2327; --line: #2a2f34;
+    --ink: #f2f3f5; --muted: #9aa0a8; --accent: #8b7cf6; --accent-ink: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--page); color: var(--ink);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif; }
+  a { color: var(--accent); }
+  header { padding: 20px 24px 8px; max-width: 1400px; margin: 0 auto; }
+  header .brand { color: var(--accent); font-weight: 600; font-size: 14px; letter-spacing: .02em; }
+  header h1 { margin: 2px 0 0; font-size: 26px; font-weight: 600; }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 24px;
+    padding: 16px 24px 40px; max-width: 1400px; margin: 0 auto; }
+  .player { min-width: 0; }
+  video { width: 100%; aspect-ratio: 16 / 10; background: #000; border-radius: 14px; display: block; }
+  .now { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+  .now h2 { margin: 0; font-size: 22px; font-weight: 600; }
+  .now .meta { color: var(--muted); font-size: 14px; }
+  .now .extra { margin-left: auto; display: flex; gap: 10px; }
+  .btn { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 999px;
+    padding: 7px 14px; font: inherit; font-size: 14px; cursor: pointer; text-decoration: none; }
+  .btn:hover { border-color: var(--accent); }
+  .btn.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .hint { color: var(--muted); font-size: 14px; margin-top: 10px; }
+  nav { background: var(--panel); border-radius: 14px; padding: 8px; align-self: start; }
+  nav h3 { margin: 8px 10px 10px; font-size: 13px; color: var(--muted); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+  nav a { display: grid; grid-template-columns: 112px 1fr; gap: 12px; align-items: center; padding: 8px;
+    border-radius: 10px; color: var(--ink); text-decoration: none; }
+  nav a:hover { background: var(--panel-2); }
+  nav a[aria-current="true"] { background: var(--panel-2); box-shadow: inset 3px 0 0 var(--accent); }
+  nav img { width: 112px; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 6px; display: block; background: #000; }
+  nav .t { font-size: 15px; font-weight: 500; line-height: 1.3; }
+  nav .d { font-size: 13px; color: var(--muted); }
+  footer { color: var(--muted); font-size: 14px; text-align: center; padding: 0 24px 32px; }
+  video::cue { background: rgba(12, 13, 15, .85); color: #f5f5f7; font-size: 1.05em; }
+  @media (max-width: 900px) {
+    main { grid-template-columns: 1fr; padding: 12px 16px 32px; }
+    header { padding: 16px 16px 4px; }
+    .now .extra { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">MOTO-HUB Studio</div>
+  <h1>Dash video guide</h1>
+</header>
+<main>
+  <section class="player">
+    <video id="video" controls playsinline preload="metadata"></video>
+    <div class="now">
+      <h2 id="title"></h2>
+      <span class="meta" id="meta"></span>
+      <span class="extra">
+        <button class="btn" id="cc" type="button" aria-pressed="false">Subtitles</button>
+        <a class="btn" id="srt" download>Download .srt</a>
+      </span>
+    </div>
+    <p class="hint">Each video covers one section of Dash. Pick another one from the list.</p>
+  </section>
+  <nav aria-label="Videos">
+    <h3>All videos</h3>
+    <div id="list"></div>
+  </nav>
+</main>
+<footer>You can't break anything — play with it. Questions? Join us on <a href="https://discord.gg/FzhXZtPhC8">Discord</a>.</footer>
+<script>
+  // The anchors are what MOTO-HUB Studio opens (…/#layout): keep them stable.
+  const VIDEOS = [
+    { id: "getting-started", file: "01-getting-started", title: "Getting started", secs: 73 },
+    { id: "look-and-feel", file: "02-look-and-feel", title: "Look & feel", secs: 69 },
+    { id: "layout", file: "03-layout", title: "Layout", secs: 106 },
+    { id: "widgets", file: "04-widgets", title: "Widgets", secs: 106 },
+    { id: "buttons", file: "05-buttons", title: "Buttons", secs: 97 },
+    { id: "dock", file: "06-dock", title: "Dock", secs: 77 },
+    { id: "sub-dashes", file: "07-sub-dashes", title: "Sub dashes", secs: 160 },
+    { id: "apps-panel", file: "08-apps-panel", title: "Apps panel", secs: 142 },
+    { id: "apps-and-cameras", file: "09-apps-and-cameras", title: "Apps & cameras on the dash", secs: 86 },
+  ];
+  const $ = (id) => document.getElementById(id);
+  const video = $("video"), list = $("list"), cc = $("cc");
+  const mmss = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+  let subtitlesOn = false;
+  try { subtitlesOn = localStorage.getItem("dash-subs") === "1"; } catch (e) {}
+
+  VIDEOS.forEach((v, i) => {
+    const a = document.createElement("a");
+    a.href = `#${v.id}`;
+    a.innerHTML = `<img src="thumbs/${v.file}.jpg" alt="" loading="lazy"><span><span class="t">${i + 1}. ${v.title}</span><br><span class="d">${mmss(v.secs)}</span></span>`;
+    list.appendChild(a);
+  });
+
+  function applySubs() {
+    for (const t of video.textTracks) t.mode = subtitlesOn ? "showing" : "hidden";
+    cc.classList.toggle("on", subtitlesOn);
+    cc.setAttribute("aria-pressed", String(subtitlesOn));
+  }
+
+  function show(autoplay) {
+    const id = location.hash.slice(1);
+    const i = Math.max(0, VIDEOS.findIndex((v) => v.id === id));
+    const v = VIDEOS[i];
+    video.innerHTML = "";
+    video.src = `videos/${v.file}.mp4`;
+    video.poster = `thumbs/${v.file}.jpg`;
+    const track = document.createElement("track");
+    Object.assign(track, { kind: "subtitles", srclang: "en", label: "English", src: `subtitles/${v.file}.vtt` });
+    video.appendChild(track);
+    track.addEventListener("load", applySubs);
+    applySubs();
+    $("title").textContent = `${i + 1}. ${v.title}`;
+    $("meta").textContent = `Video ${i + 1} of ${VIDEOS.length} · ${mmss(v.secs)}`;
+    $("srt").href = `subtitles/${v.file}.srt`;
+    document.title = `${v.title} · Dash video guide`;
+    [...list.children].forEach((a, k) => a.setAttribute("aria-current", String(k === i)));
+    if (autoplay) video.play().catch(() => {});
+  }
+
+  cc.addEventListener("click", () => {
+    subtitlesOn = !subtitlesOn;
+    try { localStorage.setItem("dash-subs", subtitlesOn ? "1" : "0"); } catch (e) {}
+    applySubs();
+  });
+  video.addEventListener("ended", () => {
+    const i = VIDEOS.findIndex((v) => `#${v.id}` === location.hash);
+    if (i >= 0 && i < VIDEOS.length - 1) location.hash = VIDEOS[i + 1].id;
+  });
+  addEventListener("hashchange", () => show(true));
+  show(false);
+</script>
+</body>
+</html>

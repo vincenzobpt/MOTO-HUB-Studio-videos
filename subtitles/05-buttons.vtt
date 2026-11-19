@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:02.450 --> 00:00:07.575 line:0 align:center
+Controls is a special widget: one card that holds as many buttons as fit.
+
+00:00:08.050 --> 00:00:12.275 line:0 align:center
+Each button can do something specific, like opening another dash.
+
+00:00:12.725 --> 00:00:16.525 line:0 align:center
+In Widgets, open Controls to see the buttons on the card.
+
+00:00:17.425 --> 00:00:23.500 line:0 align:center
+A button can open a sub dash, open an Android app on your phone, or run a MOTO-HUB action.
+
+00:00:26.375 --> 00:00:29.300 line:0 align:center
+Let's open a button that links to Spotify.
+
+00:00:29.775 --> 00:00:32.175 line:0 align:center
+What it does shows its current action.
+
+00:00:35.325 --> 00:00:38.700 line:0 align:center
+Search for another action, or pick one from the list.
+
+00:00:39.525 --> 00:00:45.325 line:0 align:center
+MOTO-HUB actions include starting or stopping trip recording, and switching day and night.
+
+00:00:45.875 --> 00:00:49.650 line:0 align:center
+Spotify is selected because it's an app from your phone.
+
+00:00:50.375 --> 00:00:53.975 line:0 align:center
+All apps loads the list of apps installed on your phone.
+
+00:00:54.525 --> 00:00:56.600 line:0 align:center
+Does nothing clears the button.
+
+00:00:57.050 --> 00:00:59.675 line:0 align:center
+Text sets the label under the icon.
+
+00:01:00.250 --> 00:01:03.250 line:0 align:center
+Type any label you like, or leave it empty.
+
+00:01:04.600 --> 00:01:08.625 line:0 align:center
+Icon comes from the library, or you can use your own picture.
+
+00:01:08.975 --> 00:01:11.050 line:0 align:center
+Background sets the fill.
+
+00:01:11.275 --> 00:01:14.175 line:0 align:center
+Shape and outline adds a border, or a glow.
+
+00:01:14.625 --> 00:01:19.025 line:0 align:center
+Laid out as arranges the buttons in a row, a column or a grid.
+
+00:01:20.025 --> 00:01:23.400 line:0 align:center
+The difference shows when the card holds enough buttons.
+
+00:01:25.275 --> 00:01:29.500 line:0 align:center
+Style sets the look of the buttons: Filled, Outline or Glass.
+
+00:01:29.875 --> 00:01:32.825 line:0 align:center
+Glass works well over a background photo.
