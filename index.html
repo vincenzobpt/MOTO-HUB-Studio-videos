@@ -28,7 +28,10 @@
   .btn { border: 1px solid var(--line); background: var(--panel); color: var(--ink); border-radius: 999px;
     padding: 7px 14px; font: inherit; font-size: 14px; cursor: pointer; text-decoration: none; }
   .btn:hover { border-color: var(--accent); }
-  .btn.on { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  select.btn { appearance: none; padding-right: 30px;
+    background: var(--panel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239aa0a8'/%3E%3C/svg%3E") no-repeat right 12px center; }
+  select.btn.on { border-color: var(--accent); color: var(--ink); box-shadow: inset 0 0 0 1px var(--accent); }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
   .hint { color: var(--muted); font-size: 14px; margin-top: 10px; }
   nav { background: var(--panel); border-radius: 14px; padding: 8px; align-self: start; }
   nav h3 { margin: 8px 10px 10px; font-size: 13px; color: var(--muted); font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
@@ -60,7 +63,14 @@
       <h2 id="title"></h2>
       <span class="meta" id="meta"></span>
       <span class="extra">
-        <button class="btn" id="cc" type="button" aria-pressed="false">Subtitles</button>
+        <label class="sr" for="cc">Subtitles</label>
+        <select class="btn" id="cc" aria-label="Subtitles">
+          <option value="">Subtitles: off</option>
+          <option value="en">English</option>
+          <option value="it">Italiano</option>
+          <option value="fr">Français</option>
+          <option value="es">Español</option>
+        </select>
         <a class="btn" id="srt" download>Download .srt</a>
       </span>
     </div>
@@ -88,8 +98,12 @@
   const $ = (id) => document.getElementById(id);
   const video = $("video"), list = $("list"), cc = $("cc");
   const mmss = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
-  let subtitlesOn = false;
-  try { subtitlesOn = localStorage.getItem("dash-subs") === "1"; } catch (e) {}
+  // Subtitle languages: English lives in subtitles/, the others in subtitles/<lang>/.
+  const LANGS = { en: "English", it: "Italiano", fr: "Français", es: "Español" };
+  const subPath = (lang, file, ext) => `subtitles/${lang === "en" ? "" : lang + "/"}${file}.${ext}`;
+  let lang = "";
+  try { lang = localStorage.getItem("dash-subs-lang") || ""; } catch (e) {}
+  if (lang && !(lang in LANGS)) lang = "";
 
   VIDEOS.forEach((v, i) => {
     const a = document.createElement("a");
@@ -98,35 +112,39 @@
     list.appendChild(a);
   });
 
+  let current = null;
   function applySubs() {
-    for (const t of video.textTracks) t.mode = subtitlesOn ? "showing" : "hidden";
-    cc.classList.toggle("on", subtitlesOn);
-    cc.setAttribute("aria-pressed", String(subtitlesOn));
+    for (const t of video.textTracks) t.mode = t.language === lang ? "showing" : "hidden";
+    cc.value = lang;
+    cc.classList.toggle("on", !!lang);
+    if (current) $("srt").href = subPath(lang || "en", current.file, "srt");
   }
 
   function show(autoplay) {
     const id = location.hash.slice(1);
     const i = Math.max(0, VIDEOS.findIndex((v) => v.id === id));
     const v = VIDEOS[i];
+    current = v;
     video.innerHTML = "";
     video.src = `videos/${v.file}.mp4`;
     video.poster = `thumbs/${v.file}.jpg`;
-    const track = document.createElement("track");
-    Object.assign(track, { kind: "subtitles", srclang: "en", label: "English", src: `subtitles/${v.file}.vtt` });
-    video.appendChild(track);
-    track.addEventListener("load", applySubs);
+    for (const [code, label] of Object.entries(LANGS)) {
+      const track = document.createElement("track");
+      Object.assign(track, { kind: "subtitles", srclang: code, label, src: subPath(code, v.file, "vtt") });
+      track.addEventListener("load", applySubs);
+      video.appendChild(track);
+    }
     applySubs();
     $("title").textContent = `${i + 1}. ${v.title}`;
     $("meta").textContent = `Video ${i + 1} of ${VIDEOS.length} · ${mmss(v.secs)}`;
-    $("srt").href = `subtitles/${v.file}.srt`;
     document.title = `${v.title} · Dash video guide`;
     [...list.children].forEach((a, k) => a.setAttribute("aria-current", String(k === i)));
     if (autoplay) video.play().catch(() => {});
   }
 
-  cc.addEventListener("click", () => {
-    subtitlesOn = !subtitlesOn;
-    try { localStorage.setItem("dash-subs", subtitlesOn ? "1" : "0"); } catch (e) {}
+  cc.addEventListener("change", () => {
+    lang = cc.value;
+    try { localStorage.setItem("dash-subs-lang", lang); } catch (e) {}
     applySubs();
   });
   video.addEventListener("ended", () => {

@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:02.650 --> 00:00:06.850 line:0 align:center
+Voici Layout. Il montre comment les cartes sont disposées sur ton dash.
+
+00:00:09.800 --> 00:00:12.450 line:0 align:center
+Fais glisser une carte pour la placer où tu veux.
+
+00:00:16.750 --> 00:00:19.050 line:0 align:center
+Tire une poignée pour la redimensionner.
+
+00:00:20.600 --> 00:00:25.850 line:0 align:center
+Les toutes petites cartes ne peuvent pas afficher tous les widgets. Teste, et vérifie l'aperçu.
+
+00:00:26.500 --> 00:00:30.325 line:0 align:center
+En glissant, les cartes se calent sur la taille et la place idéales.
+
+00:00:34.050 --> 00:00:36.225 line:0 align:center
+Chaque modification peut être annulée.
+
+00:00:36.550 --> 00:00:39.975 line:0 align:center
+Discard te ramène à la dernière version enregistrée.
+
+00:00:42.600 --> 00:00:47.025 line:0 align:center
+Donc : le dock d'un côté, puis des colonnes de cartes redimensionnables.
+
+00:00:49.250 --> 00:00:53.475 line:0 align:center
+Clique sur le plus, sur le côté, pour ajouter une colonne s'il reste de la place.
+
+00:00:55.900 --> 00:00:59.600 line:0 align:center
+À un moment, l'écran est plein et plus aucune colonne ne rentre.
+
+00:01:00.700 --> 00:01:04.250 line:0 align:center
+Pour supprimer une carte ou une colonne, clique sur son bouton moins.
+
+00:01:06.150 --> 00:01:09.250 line:0 align:center
+Les nouvelles colonnes peuvent aller à gauche ou à droite.
+
+00:01:11.900 --> 00:01:14.250 line:0 align:center
+Ou clique sur New column en bas.
+
+00:01:16.500 --> 00:01:19.625 line:0 align:center
+Il n'ajoute plus de colonnes une fois l'écran plein.
+
+00:01:22.050 --> 00:01:24.450 line:0 align:center
+Add card ajoute une seule carte.
+
+00:01:24.650 --> 00:01:29.725 line:0 align:center
+Chaque carte contient un widget, comme une valeur OBD ou les données du trajet en direct.
+
+00:01:30.275 --> 00:01:34.725 line:0 align:center
+La valeur du carburant est estimée d'après les réglages saisis sur le téléphone.
+
+00:01:36.925 --> 00:01:40.900 line:0 align:center
+Ensuite, dans la vidéo Widgets, tu choisiras ce que chaque carte affiche.

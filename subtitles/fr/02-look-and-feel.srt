@@ -1,0 +1,43 @@
+1
+00:00:02,450 --> 00:00:08,925
+{\an8}Pars d'un thème tout prêt : Midnight, Sand, Carbon, Classic, Aurora, Ember, Glacier et d'autres.
+
+2
+00:00:10,650 --> 00:00:14,675
+{\an8}Auto day and night change de thème au lever et au coucher du soleil.
+
+3
+00:00:15,025 --> 00:00:17,725
+{\an8}Color définit la couleur de base du dash.
+
+4
+00:00:18,525 --> 00:00:22,550
+{\an8}Ces réglages sont communs au dash principal et à tous les sous-dashs.
+
+5
+00:00:22,900 --> 00:00:26,925
+{\an8}Background peut être une couleur unie, un dégradé ou une photo.
+
+6
+00:00:27,475 --> 00:00:31,500
+{\an8}Dans Cards, règle la forme des cartes et le rayon de leurs coins.
+
+7
+00:00:34,375 --> 00:00:39,375
+{\an8}Spacing règle l'écart entre les cartes, la marge extérieure et la marge intérieure.
+
+8
+00:00:40,725 --> 00:00:46,300
+{\an8}Dans Text and labels, Card titles affiche ou masque les petites légendes, comme SPEED.
+
+9
+00:00:47,025 --> 00:00:50,875
+{\an8}Clique sur Use the theme's style pour remettre les réglages du thème.
+
+10
+00:00:52,925 --> 00:00:57,050
+{\an8}Choisis une forme, comme Soft ou Cut, puis fais glisser Corner radius.
+
+11
+00:00:59,725 --> 00:01:02,475
+{\an8}Coins nets ou arrondis : à toi de choisir.

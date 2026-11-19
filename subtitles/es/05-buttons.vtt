@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:02.450 --> 00:00:07.575 line:0 align:center
+Controls es un widget especial: una tarjeta con todos los botones que quepan.
+
+00:00:08.050 --> 00:00:12.275 line:0 align:center
+Cada botón puede hacer algo concreto, como abrir otro dash.
+
+00:00:12.725 --> 00:00:16.525 line:0 align:center
+En Widgets, abre Controls para ver los botones de la tarjeta.
+
+00:00:17.425 --> 00:00:23.500 line:0 align:center
+Un botón puede abrir un sub dash, abrir una app de Android de tu teléfono o ejecutar una acción de MOTO-HUB.
+
+00:00:26.375 --> 00:00:29.300 line:0 align:center
+Abramos un botón que enlaza con Spotify.
+
+00:00:29.775 --> 00:00:32.175 line:0 align:center
+What it does muestra su acción actual.
+
+00:00:35.325 --> 00:00:38.700 line:0 align:center
+Busca otra acción o elige una de la lista.
+
+00:00:39.525 --> 00:00:45.325 line:0 align:center
+Las acciones de MOTO-HUB incluyen iniciar o detener la grabación del viaje y cambiar entre día y noche.
+
+00:00:45.875 --> 00:00:49.650 line:0 align:center
+Spotify está seleccionado porque es una app de tu teléfono.
+
+00:00:50.375 --> 00:00:53.975 line:0 align:center
+All apps carga la lista de apps instaladas en tu teléfono.
+
+00:00:54.525 --> 00:00:56.600 line:0 align:center
+Does nothing deja el botón vacío.
+
+00:00:57.050 --> 00:00:59.675 line:0 align:center
+Text define la etiqueta bajo el icono.
+
+00:01:00.250 --> 00:01:03.250 line:0 align:center
+Escribe la etiqueta que quieras o déjala vacía.
+
+00:01:04.600 --> 00:01:08.625 line:0 align:center
+Icon viene de la biblioteca, o puedes usar tu propia imagen.
+
+00:01:08.975 --> 00:01:11.050 line:0 align:center
+Background define el relleno.
+
+00:01:11.275 --> 00:01:14.175 line:0 align:center
+Shape and outline añade un borde o un brillo.
+
+00:01:14.625 --> 00:01:19.025 line:0 align:center
+Laid out as ordena los botones: Row, Column o Grid.
+
+00:01:20.025 --> 00:01:23.400 line:0 align:center
+La diferencia se nota cuando la tarjeta tiene suficientes botones.
+
+00:01:25.275 --> 00:01:29.500 line:0 align:center
+Style define el aspecto de los botones: Filled, Outline o Glass.
+
+00:01:29.875 --> 00:01:32.825 line:0 align:center
+Glass queda muy bien sobre una foto de fondo.

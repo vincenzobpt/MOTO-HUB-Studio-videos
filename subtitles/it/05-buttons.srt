@@ -1,0 +1,79 @@
+1
+00:00:02,450 --> 00:00:07,575
+{\an8}Controls è un widget speciale: una card che contiene tutti i pulsanti che ci stanno.
+
+2
+00:00:08,050 --> 00:00:12,275
+{\an8}Ogni pulsante può fare una cosa precisa, come aprire un'altra dash.
+
+3
+00:00:12,725 --> 00:00:16,525
+{\an8}In Widgets, apri Controls per vedere i pulsanti della card.
+
+4
+00:00:17,425 --> 00:00:23,500
+{\an8}Un pulsante può aprire una sub dash, aprire un'app Android sul telefono o eseguire un'azione di MOTO-HUB.
+
+5
+00:00:26,375 --> 00:00:29,300
+{\an8}Apriamo un pulsante collegato a Spotify.
+
+6
+00:00:29,775 --> 00:00:32,175
+{\an8}What it does mostra la sua azione attuale.
+
+7
+00:00:35,325 --> 00:00:38,700
+{\an8}Cerca un'altra azione, o scegline una dall'elenco.
+
+8
+00:00:39,525 --> 00:00:45,325
+{\an8}Tra le azioni di MOTO-HUB ci sono avviare o fermare la registrazione del viaggio e passare tra giorno e notte.
+
+9
+00:00:45,875 --> 00:00:49,650
+{\an8}Spotify è selezionato perché è un'app del tuo telefono.
+
+10
+00:00:50,375 --> 00:00:53,975
+{\an8}All apps carica l'elenco delle app installate sul telefono.
+
+11
+00:00:54,525 --> 00:00:56,600
+{\an8}Does nothing svuota il pulsante.
+
+12
+00:00:57,050 --> 00:00:59,675
+{\an8}Text imposta l'etichetta sotto l'icona.
+
+13
+00:01:00,250 --> 00:01:03,250
+{\an8}Scrivi l'etichetta che vuoi, o lasciala vuota.
+
+14
+00:01:04,600 --> 00:01:08,625
+{\an8}Icon viene dalla libreria, oppure puoi usare una tua immagine.
+
+15
+00:01:08,975 --> 00:01:11,050
+{\an8}Background imposta il riempimento.
+
+16
+00:01:11,275 --> 00:01:14,175
+{\an8}Shape and outline aggiunge un bordo, o un bagliore.
+
+17
+00:01:14,625 --> 00:01:19,025
+{\an8}Laid out as dispone i pulsanti in riga, in colonna o a griglia.
+
+18
+00:01:20,025 --> 00:01:23,400
+{\an8}La differenza si vede quando la card ha abbastanza pulsanti.
+
+19
+00:01:25,275 --> 00:01:29,500
+{\an8}Style imposta l'aspetto dei pulsanti: Filled, Outline o Glass.
+
+20
+00:01:29,875 --> 00:01:32,825
+{\an8}Glass sta bene sopra una foto di sfondo.

@@ -1,0 +1,99 @@
+1
+00:00:02,450 --> 00:00:04,375
+{\an8}Ahora, el Apps panel.
+
+2
+00:00:04,950 --> 00:00:08,475
+{\an8}En el dash, el botón de nueve puntos del dock lo abre.
+
+3
+00:00:11,500 --> 00:00:14,100
+{\an8}Se configura en la página Apps panel.
+
+4
+00:00:15,300 --> 00:00:18,850
+{\an8}Se desliza sobre el dash y tiene un tamaño fijo.
+
+5
+00:00:20,550 --> 00:00:23,800
+{\an8}Se construye como un dash, con tarjetas y widgets.
+
+6
+00:00:26,700 --> 00:00:29,550
+{\an8}Para añadir algo, haz clic en Add to the panel.
+
+7
+00:00:30,000 --> 00:00:33,550
+{\an8}Encontrarás ajustes rápidos y apps, y una tarjeta Controls.
+
+8
+00:00:34,450 --> 00:00:38,725
+{\an8}Más abajo: widgets del teléfono, sensores OBD y New column.
+
+9
+00:00:42,500 --> 00:00:45,700
+{\an8}Una tarjeta nueva se llena con un widget automáticamente.
+
+10
+00:00:46,400 --> 00:00:49,800
+{\an8}Cámbialo a tu gusto, o quítalo si no lo quieres.
+
+11
+00:00:53,850 --> 00:00:57,025
+{\an8}Cada clic en Buttons añade otra tarjeta Buttons.
+
+12
+00:00:59,050 --> 00:01:02,450
+{\an8}El espacio del panel es fijo, así que aprovéchalo bien.
+
+13
+00:01:07,600 --> 00:01:09,925
+{\an8}Haz clic en una tarjeta para ver sus opciones.
+
+14
+00:01:11,000 --> 00:01:13,700
+{\an8}La tarjeta Apps muestra apps de tu teléfono.
+
+15
+00:01:19,550 --> 00:01:21,350
+{\an8}Elige qué muestra:
+
+16
+00:01:22,750 --> 00:01:26,475
+{\an8}las apps de tu teléfono, en el mismo orden que allí,
+
+17
+00:01:28,150 --> 00:01:30,175
+{\an8}o solo tus apps de música.
+
+18
+00:01:31,500 --> 00:01:35,050
+{\an8}Last opened pone primero las apps que más usas.
+
+19
+00:01:37,650 --> 00:01:40,650
+{\an8}Si una tarjeta queda demasiado pequeña, dale más espacio.
+
+20
+00:01:43,650 --> 00:01:45,950
+{\an8}O quita una tarjeta para hacer espacio.
+
+21
+00:01:48,600 --> 00:01:51,250
+{\an8}Haz clic en una tarjeta Buttons para ver sus botones.
+
+22
+00:01:51,900 --> 00:01:55,925
+{\an8}Cada clic en Add button añade uno más, hasta llenar la tarjeta.
+
+23
+00:01:57,100 --> 00:02:02,150
+{\an8}Cada botón tiene las opciones de siempre: qué hace, texto, icono y aspecto.
+
+24
+00:02:03,050 --> 00:02:06,925
+{\an8}Al principio es mucho, así que experimenta. No puedes romper nada.
+
+25
+00:02:11,050 --> 00:02:15,300
+{\an8}Para conservar tu dash actual, guarda con otro nombre o haz clic en Discard.

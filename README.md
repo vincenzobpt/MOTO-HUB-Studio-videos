@@ -16,6 +16,6 @@ Watch them here: **https://vincenzobpt.github.io/MOTO-HUB-Studio-videos/**
 | 8 | [Apps panel](https://vincenzobpt.github.io/MOTO-HUB-Studio-videos/#apps-panel) | 2:22 |
 | 9 | [Apps & cameras on the dash](https://vincenzobpt.github.io/MOTO-HUB-Studio-videos/#apps-and-cameras) | 1:26 |
 
-English subtitles for every video are in [`subtitles/`](subtitles) (`.srt` and `.vtt`).
+Subtitles for every video in English, Italian, French and Spanish are in [`subtitles/`](subtitles) (`.srt` and `.vtt`; `it/`, `fr/`, `es/` for the translations). Pick the language from the Subtitles menu on the page.
 
 Get MOTO-HUB Studio: [MOTO-HUB-Studio-releases](https://github.com/vincenzobpt/MOTO-HUB-Studio-releases) · Questions? [Discord](https://discord.gg/FzhXZtPhC8)

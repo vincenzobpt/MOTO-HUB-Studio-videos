@@ -1,0 +1,59 @@
+1
+00:00:02,450 --> 00:00:04,975
+{\an8}Il dock è la barra degli strumenti della tua dash.
+
+2
+00:00:05,550 --> 00:00:07,850
+{\an8}Apri Dock per personalizzarlo.
+
+3
+00:00:09,100 --> 00:00:12,950
+{\an8}Puoi aggiungere altri dock, per più pulsanti o impostazioni rapide.
+
+4
+00:00:13,500 --> 00:00:17,000
+{\an8}Mettili a destra, in basso o in alto.
+
+5
+00:00:18,300 --> 00:00:21,025
+{\an8}I lati già occupati non vengono proposti.
+
+6
+00:00:21,750 --> 00:00:24,200
+{\an8}Seleziona un dock per vedere i suoi pulsanti.
+
+7
+00:00:26,250 --> 00:00:29,225
+{\an8}Il dock di sinistra ha più pulsanti di quelli che vedi.
+
+8
+00:00:31,700 --> 00:00:34,700
+{\an8}Tieni premuto Shift e scorri per muoverti a sinistra e a destra.
+
+9
+00:00:39,050 --> 00:00:42,125
+{\an8}Usa Search buttons and apps per trovare una funzione.
+
+10
+00:00:42,750 --> 00:00:46,300
+{\an8}Seleziona un pulsante e toglilo dall'elenco a sinistra.
+
+11
+00:00:47,050 --> 00:00:49,100
+{\an8}Riempiamo il dock in basso.
+
+12
+00:00:52,850 --> 00:00:54,900
+{\an8}Clicca una funzione per aggiungerla.
+
+13
+00:00:57,050 --> 00:00:59,050
+{\an8}I pulsanti si rimpiccioliscono per fare spazio.
+
+14
+00:01:04,750 --> 00:01:07,600
+{\an8}Quando il dock è pieno, non puoi aggiungerne altri.
+
+15
+00:01:08,050 --> 00:01:11,650
+{\an8}Forma, dimensione e posizione si impostano tutte qui, in Dock.

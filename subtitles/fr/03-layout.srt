@@ -1,0 +1,71 @@
+1
+00:00:02,650 --> 00:00:06,850
+{\an8}Voici Layout. Il montre comment les cartes sont disposées sur ton dash.
+
+2
+00:00:09,800 --> 00:00:12,450
+{\an8}Fais glisser une carte pour la placer où tu veux.
+
+3
+00:00:16,750 --> 00:00:19,050
+{\an8}Tire une poignée pour la redimensionner.
+
+4
+00:00:20,600 --> 00:00:25,850
+{\an8}Les toutes petites cartes ne peuvent pas afficher tous les widgets. Teste, et vérifie l'aperçu.
+
+5
+00:00:26,500 --> 00:00:30,325
+{\an8}En glissant, les cartes se calent sur la taille et la place idéales.
+
+6
+00:00:34,050 --> 00:00:36,225
+{\an8}Chaque modification peut être annulée.
+
+7
+00:00:36,550 --> 00:00:39,975
+{\an8}Discard te ramène à la dernière version enregistrée.
+
+8
+00:00:42,600 --> 00:00:47,025
+{\an8}Donc : le dock d'un côté, puis des colonnes de cartes redimensionnables.
+
+9
+00:00:49,250 --> 00:00:53,475
+{\an8}Clique sur le plus, sur le côté, pour ajouter une colonne s'il reste de la place.
+
+10
+00:00:55,900 --> 00:00:59,600
+{\an8}À un moment, l'écran est plein et plus aucune colonne ne rentre.
+
+11
+00:01:00,700 --> 00:01:04,250
+{\an8}Pour supprimer une carte ou une colonne, clique sur son bouton moins.
+
+12
+00:01:06,150 --> 00:01:09,250
+{\an8}Les nouvelles colonnes peuvent aller à gauche ou à droite.
+
+13
+00:01:11,900 --> 00:01:14,250
+{\an8}Ou clique sur New column en bas.
+
+14
+00:01:16,500 --> 00:01:19,625
+{\an8}Il n'ajoute plus de colonnes une fois l'écran plein.
+
+15
+00:01:22,050 --> 00:01:24,450
+{\an8}Add card ajoute une seule carte.
+
+16
+00:01:24,650 --> 00:01:29,725
+{\an8}Chaque carte contient un widget, comme une valeur OBD ou les données du trajet en direct.
+
+17
+00:01:30,275 --> 00:01:34,725
+{\an8}La valeur du carburant est estimée d'après les réglages saisis sur le téléphone.
+
+18
+00:01:36,925 --> 00:01:40,900
+{\an8}Ensuite, dans la vidéo Widgets, tu choisiras ce que chaque carte affiche.

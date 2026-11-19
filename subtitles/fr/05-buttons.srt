@@ -1,0 +1,79 @@
+1
+00:00:02,450 --> 00:00:07,575
+{\an8}Controls est un widget spécial : une seule carte avec autant de boutons qu'il en rentre.
+
+2
+00:00:08,050 --> 00:00:12,275
+{\an8}Chaque bouton peut faire une action précise, comme ouvrir un autre dash.
+
+3
+00:00:12,725 --> 00:00:16,525
+{\an8}Dans Widgets, ouvre Controls pour voir les boutons de la carte.
+
+4
+00:00:17,425 --> 00:00:23,500
+{\an8}Un bouton peut ouvrir un sous-dash, ouvrir une app Android sur ton téléphone ou lancer une action MOTO-HUB.
+
+5
+00:00:26,375 --> 00:00:29,300
+{\an8}Ouvrons un bouton lié à Spotify.
+
+6
+00:00:29,775 --> 00:00:32,175
+{\an8}What it does montre son action actuelle.
+
+7
+00:00:35,325 --> 00:00:38,700
+{\an8}Cherche une autre action, ou choisis-en une dans la liste.
+
+8
+00:00:39,525 --> 00:00:45,325
+{\an8}Les actions MOTO-HUB permettent de lancer ou d'arrêter l'enregistrement du trajet, et de basculer jour/nuit.
+
+9
+00:00:45,875 --> 00:00:49,650
+{\an8}Spotify est sélectionné car c'est une app de ton téléphone.
+
+10
+00:00:50,375 --> 00:00:53,975
+{\an8}All apps charge la liste des apps installées sur ton téléphone.
+
+11
+00:00:54,525 --> 00:00:56,600
+{\an8}Does nothing vide le bouton.
+
+12
+00:00:57,050 --> 00:00:59,675
+{\an8}Text définit le libellé sous l'icône.
+
+13
+00:01:00,250 --> 00:01:03,250
+{\an8}Tape le libellé que tu veux, ou laisse vide.
+
+14
+00:01:04,600 --> 00:01:08,625
+{\an8}Icon vient de la bibliothèque, ou tu peux utiliser ta propre image.
+
+15
+00:01:08,975 --> 00:01:11,050
+{\an8}Background définit le remplissage.
+
+16
+00:01:11,275 --> 00:01:14,175
+{\an8}Shape and outline ajoute une bordure, ou un halo.
+
+17
+00:01:14,625 --> 00:01:19,025
+{\an8}Laid out as dispose les boutons en ligne, en colonne ou en grille.
+
+18
+00:01:20,025 --> 00:01:23,400
+{\an8}La différence se voit quand la carte a assez de boutons.
+
+19
+00:01:25,275 --> 00:01:29,500
+{\an8}Style définit l'aspect des boutons : Filled, Outline ou Glass.
+
+20
+00:01:29,875 --> 00:01:32,825
+{\an8}Glass rend bien sur une photo de fond.

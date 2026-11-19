@@ -1,0 +1,79 @@
+1
+00:00:02,450 --> 00:00:07,575
+{\an8}Controls es un widget especial: una tarjeta con todos los botones que quepan.
+
+2
+00:00:08,050 --> 00:00:12,275
+{\an8}Cada botón puede hacer algo concreto, como abrir otro dash.
+
+3
+00:00:12,725 --> 00:00:16,525
+{\an8}En Widgets, abre Controls para ver los botones de la tarjeta.
+
+4
+00:00:17,425 --> 00:00:23,500
+{\an8}Un botón puede abrir un sub dash, abrir una app de Android de tu teléfono o ejecutar una acción de MOTO-HUB.
+
+5
+00:00:26,375 --> 00:00:29,300
+{\an8}Abramos un botón que enlaza con Spotify.
+
+6
+00:00:29,775 --> 00:00:32,175
+{\an8}What it does muestra su acción actual.
+
+7
+00:00:35,325 --> 00:00:38,700
+{\an8}Busca otra acción o elige una de la lista.
+
+8
+00:00:39,525 --> 00:00:45,325
+{\an8}Las acciones de MOTO-HUB incluyen iniciar o detener la grabación del viaje y cambiar entre día y noche.
+
+9
+00:00:45,875 --> 00:00:49,650
+{\an8}Spotify está seleccionado porque es una app de tu teléfono.
+
+10
+00:00:50,375 --> 00:00:53,975
+{\an8}All apps carga la lista de apps instaladas en tu teléfono.
+
+11
+00:00:54,525 --> 00:00:56,600
+{\an8}Does nothing deja el botón vacío.
+
+12
+00:00:57,050 --> 00:00:59,675
+{\an8}Text define la etiqueta bajo el icono.
+
+13
+00:01:00,250 --> 00:01:03,250
+{\an8}Escribe la etiqueta que quieras o déjala vacía.
+
+14
+00:01:04,600 --> 00:01:08,625
+{\an8}Icon viene de la biblioteca, o puedes usar tu propia imagen.
+
+15
+00:01:08,975 --> 00:01:11,050
+{\an8}Background define el relleno.
+
+16
+00:01:11,275 --> 00:01:14,175
+{\an8}Shape and outline añade un borde o un brillo.
+
+17
+00:01:14,625 --> 00:01:19,025
+{\an8}Laid out as ordena los botones: Row, Column o Grid.
+
+18
+00:01:20,025 --> 00:01:23,400
+{\an8}La diferencia se nota cuando la tarjeta tiene suficientes botones.
+
+19
+00:01:25,275 --> 00:01:29,500
+{\an8}Style define el aspecto de los botones: Filled, Outline o Glass.
+
+20
+00:01:29,875 --> 00:01:32,825
+{\an8}Glass queda muy bien sobre una foto de fondo.

@@ -1,0 +1,55 @@
+WEBVTT
+
+00:00:02.650 --> 00:00:06.850 line:0 align:center
+Esto es Layout. Muestra cómo se organizan las tarjetas en tu dash.
+
+00:00:09.800 --> 00:00:12.450 line:0 align:center
+Arrastra una tarjeta para moverla adonde quieras.
+
+00:00:16.750 --> 00:00:19.050 line:0 align:center
+Arrastra un tirador para cambiar su tamaño.
+
+00:00:20.600 --> 00:00:25.850 line:0 align:center
+Las tarjetas muy pequeñas no pueden mostrar todos los widgets. Experimenta y revisa la vista previa.
+
+00:00:26.500 --> 00:00:30.325 line:0 align:center
+Mientras arrastras, las tarjetas se ajustan al mejor tamaño y posición.
+
+00:00:34.050 --> 00:00:36.225 line:0 align:center
+Todos los cambios se pueden deshacer.
+
+00:00:36.550 --> 00:00:39.975 line:0 align:center
+Discard te devuelve a la última versión que guardaste.
+
+00:00:42.600 --> 00:00:47.025 line:0 align:center
+Es decir: el dock a un lado y, luego, columnas de tarjetas que puedes redimensionar.
+
+00:00:49.250 --> 00:00:53.475 line:0 align:center
+Haz clic en el botón más del lateral para añadir una columna, mientras quepa en la pantalla.
+
+00:00:55.900 --> 00:00:59.600 line:0 align:center
+En algún momento la pantalla se llena y ya no caben más columnas.
+
+00:01:00.700 --> 00:01:04.250 line:0 align:center
+Para quitar una tarjeta o una columna, haz clic en su botón menos.
+
+00:01:06.150 --> 00:01:09.250 line:0 align:center
+Las columnas nuevas pueden ir a la izquierda o a la derecha.
+
+00:01:11.900 --> 00:01:14.250 line:0 align:center
+O haz clic en New column, abajo.
+
+00:01:16.500 --> 00:01:19.625 line:0 align:center
+Deja de añadir columnas cuando la pantalla está llena.
+
+00:01:22.050 --> 00:01:24.450 line:0 align:center
+Add card añade una sola tarjeta.
+
+00:01:24.650 --> 00:01:29.725 line:0 align:center
+Cada tarjeta contiene un widget, como un valor OBD o datos del viaje en vivo.
+
+00:01:30.275 --> 00:01:34.725 line:0 align:center
+El valor de combustible se estima con los ajustes que configuraste en el teléfono.
+
+00:01:36.925 --> 00:01:40.900 line:0 align:center
+A continuación, en el video de Widgets, elegirás qué muestra cada tarjeta.

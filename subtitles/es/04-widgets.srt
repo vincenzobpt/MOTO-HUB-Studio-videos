@@ -1,0 +1,75 @@
+1
+00:00:04,050 --> 00:00:07,900
+{\an8}Widgets reúne todo lo que puede mostrar una tarjeta, agrupado por tipo.
+
+2
+00:00:10,900 --> 00:00:14,250
+{\an8}Los widgets de Phone vienen directamente de MOTO-HUB en tu teléfono.
+
+3
+00:00:15,400 --> 00:00:17,900
+{\an8}Puedes colocarlos en cualquier parte de tu dash.
+
+4
+00:00:20,550 --> 00:00:25,700
+{\an8}Left panel y Right panel son los carruseles de widgets que configuras en la app MOTO-HUB.
+
+5
+00:00:27,750 --> 00:00:30,200
+{\an8}Su contenido lo eliges en el teléfono.
+
+6
+00:00:30,900 --> 00:00:33,100
+{\an8}Selecciona una tarjeta en la vista previa.
+
+7
+00:00:33,600 --> 00:00:36,950
+{\an8}La lista muestra los estilos disponibles para ese widget.
+
+8
+00:00:38,050 --> 00:00:43,375
+{\an8}Elige un estilo. La velocidad, por ejemplo, puede ser Digits, Arc, Dial, Ring o Bubble.
+
+9
+00:00:47,700 --> 00:00:50,300
+{\an8}Funciona igual con todos los widgets.
+
+10
+00:00:52,400 --> 00:00:56,500
+{\an8}Si la vista previa está vacía, la tarjeta es demasiado pequeña para ese estilo.
+
+11
+00:00:57,400 --> 00:01:00,400
+{\an8}Elige otro estilo o agranda la tarjeta.
+
+12
+00:01:00,950 --> 00:01:05,075
+{\an8}Si tu dash aún no tiene un widget, elígelo de la lista para añadirlo.
+
+13
+00:01:08,000 --> 00:01:11,575
+{\an8}Para quitarlo, vuelve a Layout y borra su tarjeta.
+
+14
+00:01:14,350 --> 00:01:18,825
+{\an8}Selecciona un widget y haz clic en su pequeño icono para ver qué hace al tocarlo.
+
+15
+00:01:20,050 --> 00:01:22,400
+{\an8}El mapa gestiona sus propios toques.
+
+16
+00:01:22,650 --> 00:01:29,375
+{\an8}Activa Tap to zoom en Widgets, dentro de Map, y un toque hace zoom a tu posición. Desactívalo para arrastrar y pellizcar el mapa.
+
+17
+00:01:30,125 --> 00:01:32,675
+{\an8}Otros widgets te dejan elegir la acción.
+
+18
+00:01:33,675 --> 00:01:37,350
+{\an8}Por ejemplo, el widget del clima puede abrir tu app del clima.
+
+19
+00:01:37,800 --> 00:01:41,000
+{\an8}Un widget puede abrir una app del teléfono o un sub dash.

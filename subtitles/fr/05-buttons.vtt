@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:02.450 --> 00:00:07.575 line:0 align:center
+Controls est un widget spécial : une seule carte avec autant de boutons qu'il en rentre.
+
+00:00:08.050 --> 00:00:12.275 line:0 align:center
+Chaque bouton peut faire une action précise, comme ouvrir un autre dash.
+
+00:00:12.725 --> 00:00:16.525 line:0 align:center
+Dans Widgets, ouvre Controls pour voir les boutons de la carte.
+
+00:00:17.425 --> 00:00:23.500 line:0 align:center
+Un bouton peut ouvrir un sous-dash, ouvrir une app Android sur ton téléphone ou lancer une action MOTO-HUB.
+
+00:00:26.375 --> 00:00:29.300 line:0 align:center
+Ouvrons un bouton lié à Spotify.
+
+00:00:29.775 --> 00:00:32.175 line:0 align:center
+What it does montre son action actuelle.
+
+00:00:35.325 --> 00:00:38.700 line:0 align:center
+Cherche une autre action, ou choisis-en une dans la liste.
+
+00:00:39.525 --> 00:00:45.325 line:0 align:center
+Les actions MOTO-HUB permettent de lancer ou d'arrêter l'enregistrement du trajet, et de basculer jour/nuit.
+
+00:00:45.875 --> 00:00:49.650 line:0 align:center
+Spotify est sélectionné car c'est une app de ton téléphone.
+
+00:00:50.375 --> 00:00:53.975 line:0 align:center
+All apps charge la liste des apps installées sur ton téléphone.
+
+00:00:54.525 --> 00:00:56.600 line:0 align:center
+Does nothing vide le bouton.
+
+00:00:57.050 --> 00:00:59.675 line:0 align:center
+Text définit le libellé sous l'icône.
+
+00:01:00.250 --> 00:01:03.250 line:0 align:center
+Tape le libellé que tu veux, ou laisse vide.
+
+00:01:04.600 --> 00:01:08.625 line:0 align:center
+Icon vient de la bibliothèque, ou tu peux utiliser ta propre image.
+
+00:01:08.975 --> 00:01:11.050 line:0 align:center
+Background définit le remplissage.
+
+00:01:11.275 --> 00:01:14.175 line:0 align:center
+Shape and outline ajoute une bordure, ou un halo.
+
+00:01:14.625 --> 00:01:19.025 line:0 align:center
+Laid out as dispose les boutons en ligne, en colonne ou en grille.
+
+00:01:20.025 --> 00:01:23.400 line:0 align:center
+La différence se voit quand la carte a assez de boutons.
+
+00:01:25.275 --> 00:01:29.500 line:0 align:center
+Style définit l'aspect des boutons : Filled, Outline ou Glass.
+
+00:01:29.875 --> 00:01:32.825 line:0 align:center
+Glass rend bien sur une photo de fond.

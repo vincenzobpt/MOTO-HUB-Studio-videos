@@ -1,0 +1,59 @@
+1
+00:00:02,450 --> 00:00:06,625
+{\an8}Tu peux ajouter n'importe quelle app Android de ton téléphone à un bouton du dash.
+
+2
+00:00:10,300 --> 00:00:15,250
+{\an8}L'app s'ouvre dans la grande zone principale du dash, en général là où est la carte GPS.
+
+3
+00:00:16,800 --> 00:00:20,475
+{\an8}Pour afficher une app en plein écran, mets-la dans son propre sous-dash.
+
+4
+00:00:22,525 --> 00:00:25,175
+{\an8}Puis ouvre ce sous-dash avec un bouton.
+
+5
+00:00:26,025 --> 00:00:28,975
+{\an8}Ces sous-dashs s'ouvrent tous en plein écran.
+
+6
+00:00:30,175 --> 00:00:33,725
+{\an8}La zone principale se redimensionne, aussi grande que tu veux.
+
+7
+00:00:34,975 --> 00:00:39,300
+{\an8}Pour une meilleure expérience, garde les apps plein écran dans leur propre sous-dash.
+
+8
+00:00:42,325 --> 00:00:46,450
+{\an8}Deux widgets occupent l'espace principal du dash : App et Camera.
+
+9
+00:00:47,225 --> 00:00:51,400
+{\an8}App affiche une app Android de ton téléphone, directement dans le dash.
+
+10
+00:00:52,050 --> 00:00:56,875
+{\an8}Camera affiche la caméra choisie dans le module Dashcam de MOTO-HUB.
+
+11
+00:00:58,150 --> 00:01:00,600
+{\an8}Il affiche une caméra à la fois.
+
+12
+00:01:01,500 --> 00:01:06,075
+{\an8}Ça peut être toute caméra gérée par le module, pas seulement une dashcam de moto.
+
+13
+00:01:07,200 --> 00:01:10,200
+{\an8}Par exemple, une caméra IP à la maison.
+
+14
+00:01:12,200 --> 00:01:18,050
+{\an8}Dash fonctionne sur tout écran compatible Android Auto, et y remplace Android Auto.
+
+15
+00:01:18,800 --> 00:01:21,400
+{\an8}Amuse-toi bien, et à bientôt sur Discord.

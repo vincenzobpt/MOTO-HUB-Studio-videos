@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:02.450 --> 00:00:07.575 line:0 align:center
+Controls è un widget speciale: una card che contiene tutti i pulsanti che ci stanno.
+
+00:00:08.050 --> 00:00:12.275 line:0 align:center
+Ogni pulsante può fare una cosa precisa, come aprire un'altra dash.
+
+00:00:12.725 --> 00:00:16.525 line:0 align:center
+In Widgets, apri Controls per vedere i pulsanti della card.
+
+00:00:17.425 --> 00:00:23.500 line:0 align:center
+Un pulsante può aprire una sub dash, aprire un'app Android sul telefono o eseguire un'azione di MOTO-HUB.
+
+00:00:26.375 --> 00:00:29.300 line:0 align:center
+Apriamo un pulsante collegato a Spotify.
+
+00:00:29.775 --> 00:00:32.175 line:0 align:center
+What it does mostra la sua azione attuale.
+
+00:00:35.325 --> 00:00:38.700 line:0 align:center
+Cerca un'altra azione, o scegline una dall'elenco.
+
+00:00:39.525 --> 00:00:45.325 line:0 align:center
+Tra le azioni di MOTO-HUB ci sono avviare o fermare la registrazione del viaggio e passare tra giorno e notte.
+
+00:00:45.875 --> 00:00:49.650 line:0 align:center
+Spotify è selezionato perché è un'app del tuo telefono.
+
+00:00:50.375 --> 00:00:53.975 line:0 align:center
+All apps carica l'elenco delle app installate sul telefono.
+
+00:00:54.525 --> 00:00:56.600 line:0 align:center
+Does nothing svuota il pulsante.
+
+00:00:57.050 --> 00:00:59.675 line:0 align:center
+Text imposta l'etichetta sotto l'icona.
+
+00:01:00.250 --> 00:01:03.250 line:0 align:center
+Scrivi l'etichetta che vuoi, o lasciala vuota.
+
+00:01:04.600 --> 00:01:08.625 line:0 align:center
+Icon viene dalla libreria, oppure puoi usare una tua immagine.
+
+00:01:08.975 --> 00:01:11.050 line:0 align:center
+Background imposta il riempimento.
+
+00:01:11.275 --> 00:01:14.175 line:0 align:center
+Shape and outline aggiunge un bordo, o un bagliore.
+
+00:01:14.625 --> 00:01:19.025 line:0 align:center
+Laid out as dispone i pulsanti in riga, in colonna o a griglia.
+
+00:01:20.025 --> 00:01:23.400 line:0 align:center
+La differenza si vede quando la card ha abbastanza pulsanti.
+
+00:01:25.275 --> 00:01:29.500 line:0 align:center
+Style imposta l'aspetto dei pulsanti: Filled, Outline o Glass.
+
+00:01:29.875 --> 00:01:32.825 line:0 align:center
+Glass sta bene sopra una foto di sfondo.
